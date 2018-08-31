@@ -8,7 +8,7 @@ module.exports = class extends Base {
     const userInfo = fullUserInfo.userInfo;
     const clientIp = ''; // 暂时不记录 ip
 
-    // 获取openid
+    // 获取openidd
     const options = {
       method: 'GET',
       url: 'https://api.weixin.qq.com/sns/jscode2session',
